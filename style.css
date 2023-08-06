@@ -17,7 +17,7 @@ body {
   background-image: url(images/bg-pattern-bottom.svg),
     url(images/bg-pattern-top.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left 40vw top 40vh, right 40vw bottom 40vh;
+  background-position: left 50vw top 50vh, right 50vw bottom 50vh;
 }
 
 main {
@@ -78,4 +78,9 @@ main {
 }
 .profile-numbers > h3 {
   margin: 8px 0;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-position: left 40vw top 40vh, right 40vw bottom 40vh;
+  }
 }
